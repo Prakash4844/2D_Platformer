@@ -1238,6 +1238,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5168251848734213253, guid: f006cf5465b49454cadf7963274a18f5, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1793138847}
     - target: {fileID: 8128307141711142832, guid: f006cf5465b49454cadf7963274a18f5, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1409,7 +1413,7 @@ Transform:
   m_GameObject: {fileID: 532072409}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.03, y: 1, z: 1}
   m_Children:
   - {fileID: 96784301}
   - {fileID: 1326552846}
@@ -2821,6 +2825,30 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1793138844 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8128307142859021829, guid: f006cf5465b49454cadf7963274a18f5, type: 3}
+  m_PrefabInstance: {fileID: 347690852}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1793138847
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793138844}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eca9e0251ffba91428da3d3555d95e5f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &7799321518082436680
 PrefabInstance:
   m_ObjectHideFlags: 0
