@@ -6,20 +6,13 @@ public class LaserShooting : MonoBehaviour
 {
 
     public GameObject laserPrefab;
-
     public Transform laserDirection;
-
     private PlayerInputs controls;
-
     private GameObject g;
-
-    
 
 
     // [SerializeField]
     // private float _speed = 10.0f;
-
-
     private void Awake() 
     {
         controls = new PlayerInputs();
