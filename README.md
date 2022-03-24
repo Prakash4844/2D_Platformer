@@ -1,3 +1,3 @@
 # 2D_Platformer
 
-This is a work in process project currently on halt.
+This is a work in progress project currently on halt.
