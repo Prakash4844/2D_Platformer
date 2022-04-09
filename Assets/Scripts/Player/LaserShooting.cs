@@ -33,6 +33,7 @@ public class LaserShooting : MonoBehaviour
     void Start()
     {
         controls.Player.Shoot.performed += _ => PlayerShoot();
+        
     }
 
 
@@ -47,7 +48,7 @@ public class LaserShooting : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    { 
 
     }
 } 

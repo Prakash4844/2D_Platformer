@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 966211190141626914}
   - component: {fileID: 5141503834789291363}
   - component: {fileID: -6440477673584315577}
+  - component: {fileID: 3277429717523436784}
   m_Layer: 0
   m_Name: Player Laser
   m_TagString: Untagged
@@ -118,3 +119,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33e9c4f304f75fa4f81f6d5382cca648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!68 &3277429717523436784
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966211190141626917}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 3.9499605, y: 0.047193766}
+  - {x: 3.6094277, y: -1.3094583}
+  - {x: 2.76342, y: -1.7487575}
+  - {x: 2.0322936, y: -1.7562389}
+  - {x: 1.0776188, y: -1.1125088}
+  - {x: 0.3909366, y: -0.59757215}
+  - {x: -0.76949644, y: -0.8951093}
+  - {x: -2.4760408, y: -0.6570754}
+  - {x: -3.9158392, y: -0.3571838}
+  - {x: -4.0153255, y: 0.14355087}
+  - {x: -3.596887, y: 0.2625659}
+  - {x: -1.5102007, y: 0.6843099}
+  - {x: 0.105618015, y: 0.5262288}
+  - {x: 1.929985, y: 1.6744816}
+  - {x: 3.364332, y: 1.4862795}
+  - {x: 3.923064, y: 0.8164689}
+  - {x: 3.955, y: 0}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
